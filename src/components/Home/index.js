@@ -6,11 +6,13 @@ const Home = () => {
     return (
         <div className="container home-page">
             <div className="text-zone">
+                <span>&lt;h1&gt;</span>
                 <h1>
-                    Hi,<br/> 
+                    Hi, 
                     I'm Andres,<br/>
                     junior developer
                 </h1>
+                <span>&lt;/h1&gt;</span>
 
                 <h2>Frontend Developer - Backend Developer - Gamer - Reader</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
