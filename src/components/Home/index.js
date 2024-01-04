@@ -9,10 +9,10 @@ const Home = () => {
                 <h1>
                     Hi,<br/> 
                     I'm Andres,<br/>
-                    web developer
+                    junior developer
                 </h1>
 
-                <h2>Frontend Developer / </h2>
+                <h2>Frontend Developer - Backend Developer - Gamer - Reader</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
         </div>

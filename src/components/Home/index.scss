@@ -19,5 +19,11 @@
             font-family: monospace;
             
         }
+
+        &::after{
+            content: '</h1>';
+            font-family: monospace;
+            
+        }
     }
 }
