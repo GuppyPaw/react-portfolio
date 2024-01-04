@@ -1,0 +1,23 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        left: 160px; //prev 10%
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1{
+        font-size: 53px;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        font-weight: 400;
+
+        &::before{
+            content: '<h1>';
+            font-family: monospace;
+            
+        }
+    }
+}

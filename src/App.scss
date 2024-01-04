@@ -1,0 +1,17 @@
+$text: #8188c7ff;
+$base: #5052a6ff;
+$contrast: #f0f2a6ff;
+$front: #9797D1;
+$back: #26283bff;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+input,
+textarea{
+  font-family: 'Open Sans';
+}
