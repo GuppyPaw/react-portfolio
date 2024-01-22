@@ -11,22 +11,23 @@ const Sidebar = () => {
 
     return (
     <div className='nav-bar'>
-        <Link className='logo' to='/' onClick={() => setShowNav(false)}>
+        <Link className='logo' to='/react-portfolio' onClick={() => setShowNav(false)}>
             <img src={Dino} alt='Logo'/>
         </Link>
         <nav className={showNav ? 'mobile-show' : ''}>
-            <NavLink exact="true" activeclassname="active" to="/"  onClick={() => setShowNav(false)}>
+            <NavLink exact="true" activeclassname="active" to="/react-portfolio"  onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon className='icon' icon={faHome}/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about"  onClick={() => setShowNav(false)}>
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/react-portfolio/about"  onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon className='icon' icon={faUser}/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/portfolio"  onClick={() => setShowNav(false)}>
+            <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/react-portfolio/portfolio"  onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon className='icon' icon={faSuitcase}/>
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact"  onClick={() => setShowNav(false)}>
+            <NavLink exact="true" activeclassname="active" className="contact-link" to="/react-portfolio/contact"  onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon className='icon' icon={faEnvelope}/>
             </NavLink>
+            <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} size="3x" className='close-icon' />
         </nav>
         <ul>
             <li>
@@ -40,7 +41,7 @@ const Sidebar = () => {
                 </a>
             </li>
         </ul>
-        <FontAwesomeIcon className='hamburger-icon' icon={faBars} color="#ffd700" size="3x" onClick={() => setShowNav(true)}/>
+        <FontAwesomeIcon className='hamburger-icon' icon={faBars} size="3x" onClick={() => setShowNav(true)}/>
     </div>
     )
 }
