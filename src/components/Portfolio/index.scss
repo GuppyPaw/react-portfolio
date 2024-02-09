@@ -4,9 +4,8 @@
     padding-left: 100px;
     padding-right: 50px;
     width: calc(100% - 450px);
-    position: initial;
+    position:relative;
     height: 100%;
-    overflow-y: scroll;
 
     .images-container {
         display: flex;

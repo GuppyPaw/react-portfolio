@@ -19,16 +19,10 @@
             "url": "https://github.com/NoMolestar/Food-Bank?tab=readme-ov-file"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "https://y6b8k9e7.stackpathcdn.com/wp-content/uploads/2018/05/shutterstock_704420086-e1528773492808.jpg",
-            "title": "Urban Mobility Sim",
-            "description": "Python, C#, Unity",
-            "url": "https://github.com/NoMolestar/Urban-Mobility-Simulation-in-Mexico"
+            "cover": "https://yt3.googleusercontent.com/EmcNYKoW2FDaWreuqsWiuZDukcgrweyUi1yHSn24wGpF-MqWRzbNwjDgtlrZUvQVZo2kK7gW=s900-c-k-c0x00ffffff-no-rj",
+            "title": "Pokedex",
+            "description": "React",
+            "url": "https://github.com/GuppyPaw/pokedex"
         }
     ]
 }
