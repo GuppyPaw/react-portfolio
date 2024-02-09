@@ -12,15 +12,22 @@ const About = () => {
                 About Me
             </h1>
             <span>&lt;/h1&gt;</span>
+            <br/>
+            <br/>
+            <span>&lt;p&gt;</span>
             <p>
-                I'm a very ambitious developer looking for a role in an
-                established IT company with the opportunity to work with the latest
-                technologies on challenging and diverse projects.
+            I love programming from front to back, and I am looking to work in companies where I can grow as a programmer along with my peers
             </p>
             <p>
-                I'm quiet confident, naturally curious, and perpetually working on
-                improving my chops one design problem at a time.
+            I really enjoy: 
+            <ul>
+              <li>reading fantasy and science fiction #Bridge4</li>
+              <li>playing video games like Bloodborne, Breath of the Wild and BioShock</li>
+              <li>playing guitar and drums</li>
+              <li>spending time with my family</li>
+            </ul>
             </p>
+            <span>&lt;/p&gt;</span>
         </div>
 
         <div className="stage-cube-cont">

@@ -15,7 +15,7 @@ const Home = () => {
                 <span>&lt;/h1&gt;</span>
 
                 <h2>Frontend Developer - Backend Developer - Gamer - Reader</h2>
-                <Link to="/contact" className="flat-button">CONTACT ME</Link>
+                <Link to="/react-portfolio/contact" className="flat-button">CONTACT ME</Link>
             </div>
         </div>
     );
