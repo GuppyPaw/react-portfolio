@@ -7,7 +7,7 @@
             "url": "https://github.com/NoMolestar/Urban-Mobility-Simulation-in-Mexico"
         },
         {
-            "cover": "/portfolio/1/one.png",
+            "cover": "https://user-images.githubusercontent.com/7455707/154779326-9e8926a8-c887-4be1-828c-acbc163cc800.jpg",
             "title": "Lert",
             "description": "JSX, Python, Shell",
             "url": "https://github.com/SweetSofiMC/TC3004B?tab=readme-ov-file"
@@ -23,6 +23,12 @@
             "title": "Pokedex",
             "description": "React",
             "url": "https://github.com/GuppyPaw/pokedex"
+        },
+        {
+            "cover": "https://datavizproject.com/wp-content/uploads/types/Bar-Chart-Vertical.png",
+            "title": "Expense tracker",
+            "description": "React, Flask, MySQL",
+            "url": "https://github.com/GuppyPaw/expense-tracker"
         }
     ]
 }

@@ -2,6 +2,7 @@
 
 .portfolio-page {
     padding-left: 100px;
+    top: 80px;
     padding-right: 50px;
     width: calc(100% - 450px);
     position:relative;
@@ -85,7 +86,7 @@
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, $contrast, #000);
+            background: linear-gradient(180deg, #000, #000);
             position: absolute;
             left: 0;
             right: 0;
